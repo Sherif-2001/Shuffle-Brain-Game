@@ -32,10 +32,10 @@ public class CupShow : MonoBehaviour
         ballPosition.x = transform.position.x;
         ball.position = ballPosition;
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            StartCoroutine(MoveAndRotate());
-        }
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     StartCoroutine(MoveAndRotate());
+        // }
 
     }
 

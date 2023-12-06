@@ -14,7 +14,6 @@ public class Shuffle : MonoBehaviour
 
     public float moveSpeed = 0.5f;
 
-    public GameObject ball;
     [SerializeField] private List<GameObject> shuffleObjects = new List<GameObject>();
 
     void Start()

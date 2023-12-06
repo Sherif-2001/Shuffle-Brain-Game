@@ -816,6 +816,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b02551864ec31f7419f8e8ad7af88b55, type: 3}
+--- !u!1 &443827537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+  m_PrefabInstance: {fileID: 1648129693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &566612795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -965,6 +970,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b02551864ec31f7419f8e8ad7af88b55, type: 3}
+--- !u!1 &577969161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+  m_PrefabInstance: {fileID: 854965342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &643507522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,16 +1261,84 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Cup (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      propertyPath: m_TagString
+      value: Cup
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854965346}
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854965345}
   m_SourcePrefab: {fileID: 100100000, guid: df19fcde26b315046b22297772b781a7, type: 3}
 --- !u!4 &854965343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3583571487414027245, guid: df19fcde26b315046b22297772b781a7, type: 3}
   m_PrefabInstance: {fileID: 854965342}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &854965345
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577969161}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6, y: 6}
+    newSize: {x: 6, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6}
+  m_EdgeRadius: 0
+--- !u!114 &854965346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577969161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67b7f2282775f4097780ab37e1f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
 --- !u!1 &1006563631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,16 +2063,84 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Cup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      propertyPath: m_TagString
+      value: Cup
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648129697}
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648129696}
   m_SourcePrefab: {fileID: 100100000, guid: df19fcde26b315046b22297772b781a7, type: 3}
 --- !u!4 &1648129694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3583571487414027245, guid: df19fcde26b315046b22297772b781a7, type: 3}
   m_PrefabInstance: {fileID: 1648129693}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1648129696
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443827537}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6, y: 6}
+    newSize: {x: 6, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6}
+  m_EdgeRadius: 0
+--- !u!114 &1648129697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443827537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67b7f2282775f4097780ab37e1f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
 --- !u!1 &1924587952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1924587953}
+  - component: {fileID: 1924587954}
   m_Layer: 0
   m_Name: Cups
   m_TagString: Untagged
@@ -2029,6 +2176,20 @@ Transform:
   - {fileID: 854965343}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924587954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924587952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccf13f2e040999429e4ccf3cfc31ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
+  shuffleObjects: []
 --- !u!1 &1959912704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,6 +2486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Cup
       objectReference: {fileID: 0}
+    - target: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      propertyPath: m_TagString
+      value: Cup
+      objectReference: {fileID: 0}
     - target: {fileID: 6134284510322490259, guid: df19fcde26b315046b22297772b781a7, type: 3}
       propertyPath: m_SortingLayer
       value: 0
@@ -2340,6 +2505,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5680150169631889045}
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5680150169631889048}
+    - targetCorrespondingSourceObject: {fileID: 6012056718172371244, guid: df19fcde26b315046b22297772b781a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5680150169631889047}
   m_SourcePrefab: {fileID: 100100000, guid: df19fcde26b315046b22297772b781a7, type: 3}
 --- !u!4 &5680150169631889044 stripped
 Transform:
@@ -2363,6 +2534,64 @@ MonoBehaviour:
   showDuration: 1.5
   rotationDuration: 3
   rotationSpeed: 100
+--- !u!61 &5680150169631889047
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037719338}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6, y: 6}
+    newSize: {x: 6, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6}
+  m_EdgeRadius: 0
+--- !u!114 &5680150169631889048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037719338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67b7f2282775f4097780ab37e1f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
